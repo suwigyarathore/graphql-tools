@@ -9,7 +9,14 @@ app.get("/", (req, res) => {
 });
 
 const root = {
-  hello: () => "Hi i am static resolver"
+  friend: () => ({
+    id: '123',
+    firstName: 'Suwigya',
+    lastName: 'Rathore',
+    gender: 'Male',
+    language: 'Nederlands',
+    email: 'suwi@learndutch.com'
+  })
 };
 
 app.use('/graphql', graphqlHTTP({
