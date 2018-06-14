@@ -12,6 +12,9 @@ This repository depicts in depth usage of graphql using latest graphql tools
 * Creating in memory database
 * Adding Scalar types and Enum types
 * Adding List type
+* Using makeExecutable schema & resolver maps instead of buildSchema
+* Making project ready for graphql-tools
+
 
 ... To be Continued
 
