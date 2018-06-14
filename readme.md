@@ -2,11 +2,15 @@
 
 This repository depicts in depth usage of graphql using latest graphql tools
 
-## Various topics expored
+## Various topics explored
 * Server Support and ES6 support
 * Initial graphql support and schema
 * Enabling Graphiql
 * Adding not nullable type
+* Adding yarn
+* Modularising Schema and resolvers in different files
+* Creating in memory database
+
 
 ... To be Continued
 
