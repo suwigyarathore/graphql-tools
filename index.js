@@ -15,7 +15,7 @@ const root = {
     lastName: 'Rathore',
     gender: 'Male',
     language: 'Nederlands',
-    email: 'suwi@learndutch.com'
+    emails: [{ email: 'suwi@learndutch.com' }, { email: 'boom@learndutch.com' }]
   })
 };
 
