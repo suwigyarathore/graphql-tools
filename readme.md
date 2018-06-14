@@ -10,7 +10,7 @@ This repository depicts in depth usage of graphql using latest graphql tools
 * Adding yarn
 * Modularising Schema and resolvers in different files
 * Creating in memory database
-
+* Adding Scalar types and Enum types
 
 ... To be Continued
 
