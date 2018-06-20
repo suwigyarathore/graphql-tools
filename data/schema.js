@@ -14,6 +14,13 @@ const typeDefs = `
    contacts: [Contact]
  }
 
+ type Alien {
+   id: ID,
+   firstName: String,
+   lastName: String,
+   planet: String
+ }
+
  enum Gender {
    MALE
    FEMALE
