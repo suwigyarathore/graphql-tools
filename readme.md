@@ -15,7 +15,7 @@ This repository depicts in depth usage of graphql using latest graphql tools
 * Using makeExecutable schema & resolver maps instead of buildSchema
 * Making project ready for graphql-tools
 * Adding Mongodb setup
-
+* Adding Schema and models for MongoDB(mongoose) and sqlite(sequalize)
 
 ... To be Continued
 
