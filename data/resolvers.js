@@ -3,8 +3,20 @@ import { Friends, Aliens } from './dbConnector';
 
 export const resolvers = {
   Query: {
-    getFriend: (_, { id }) => {
-      return new Friend(id, friendDataBase[id]);
+    getOneFriend: (_, { id }) => {
+      return new Promise((resolve, reject) => {
+        debugger;
+        Friends.findById(id,
+          (err, friend) => {
+            if (err)
+            {
+              reject(err);
+            } else
+            {
+              resolve(friend);
+            }
+          })
+      })
     },
     getAliens: () => {
       return Aliens.findAll();
